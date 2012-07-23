@@ -74,7 +74,7 @@ enum parse_states {
 	MAX_STATE,
 };
 
-void main(void) {
+void flasher(void) {
 	nvmType_t type=0;
 	nvmErr_t err;
 	volatile uint8_t c;

@@ -1,0 +1,1 @@
+../../../../cpu/mc1322x/board/dcg-mcmote.h

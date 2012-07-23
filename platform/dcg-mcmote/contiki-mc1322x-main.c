@@ -229,6 +229,22 @@ init_lowlevel(void)
 	CRM->COP_CNTLbits.COP_EN = 1;
 #endif
 
+	/* DCG Mote Specific Init */
+//	GPIO->GPIO_FUNC_SEL2 = (GPIO->GPIO_FUNC_SEL2&(~(3<<2))) | (3<<2);  //GPIO33
+//	GPIO->GPIO_FUNC_SEL2 = (GPIO->GPIO_FUNC_SEL2&(~(3<<4))) | (3<<4);  //GPIO34
+//	GPIO->GPIO_FUNC_SEL2 = (GPIO->GPIO_FUNC_SEL2&(~(3<<6))) | (3<<6);  //GPIO35	
+//	GPIO->GPIO_PAD_DIR1 = (1 << 1);
+//	GPIO->GPIO_PAD_DIR1 = (1 << 2);
+//	GPIO->GPIO_PAD_DIR1 = (1 << 3); 
+
+//	GPIO->FUNC_SEL_12 = 3;
+//	GPIO->FUNC_SEL_13 = 3;
+//	GPIO->FUNC_SEL_35 = 3;
+//	GPIO->DATA.GPIO_12 = 1;
+//	GPIO->DATA.GPIO_13 = 1;
+//	GPIO->DATA.GPIO_35 = 1;
+
+
 	/* XXX debug */
 	/* trigger periodic rtc int */
 //	clear_rtc_wu_evt();

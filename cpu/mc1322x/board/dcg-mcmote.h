@@ -36,15 +36,15 @@
 #ifndef BOARD_DCG_MCMOTE_H
 #define BOARD_DCG_MCMOTE_H
 
-#define GPIO_LED_RED   GPIO_09
-#define GPIO_LED_GREEN GPIO_10
-#define GPIO_LED_BLUE  GPIO_11	/* don't have a blue LED so we use IO43 */
+#define GPIO_LED_RED   GPIO_23
+#define GPIO_LED_GREEN GPIO_24
+#define GPIO_LED_BLUE  GPIO_25	/* don't have a blue LED so we use IO43 */
 
 /* old defs. don't use these */
 /* remove these someday */
-#define LED_RED   9
-#define LED_GREEN 10
-#define LED_BLUE  11	/* don't have a blue LED so we use IO43 */
+#define LED_RED   23
+#define LED_GREEN 24
+#define LED_BLUE  25	
 
 /* XTAL TUNE parameters */
 /* see http://devl.org/pipermail/mc1322x/2009-December/000162.html */

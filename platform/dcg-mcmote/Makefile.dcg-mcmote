@@ -8,6 +8,7 @@ CONTIKI_TARGET_SOURCEFILES += contiki-mc1322x-main.c clock.c button-sensor.c sen
 
 CONTIKIMC1322X=$(CONTIKI)/cpu/mc1322x
 CONTIKIBOARD=.
+BOARD=dcg-mcmote
 
 CONTIKI_PLAT_DEFS = 
 

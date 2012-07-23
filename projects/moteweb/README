@@ -1,9 +1,0 @@
-DCG - MCMOTE basic code.
-
-Simple text based web server that serves a single text string containing sensor data.
-
-String is comma delimted.
-
-Future:
-
-Take a string on a post process and change sensor variables.
